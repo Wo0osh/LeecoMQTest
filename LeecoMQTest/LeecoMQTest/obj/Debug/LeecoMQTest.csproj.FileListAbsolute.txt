@@ -1,0 +1,7 @@
+C:\Users\cbozeman\Source\repos\LeecoMQTest\LeecoMQTest\bin\Debug\LeecoMQTest.exe.config
+C:\Users\cbozeman\Source\repos\LeecoMQTest\LeecoMQTest\bin\Debug\LeecoMQTest.exe
+C:\Users\cbozeman\Source\repos\LeecoMQTest\LeecoMQTest\bin\Debug\LeecoMQTest.pdb
+C:\Users\cbozeman\Source\repos\LeecoMQTest\LeecoMQTest\obj\Debug\LeecoMQTest.csprojAssemblyReference.cache
+C:\Users\cbozeman\Source\repos\LeecoMQTest\LeecoMQTest\obj\Debug\LeecoMQTest.csproj.CoreCompileInputs.cache
+C:\Users\cbozeman\Source\repos\LeecoMQTest\LeecoMQTest\obj\Debug\LeecoMQTest.exe
+C:\Users\cbozeman\Source\repos\LeecoMQTest\LeecoMQTest\obj\Debug\LeecoMQTest.pdb
