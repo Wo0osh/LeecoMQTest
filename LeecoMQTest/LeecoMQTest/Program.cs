@@ -20,12 +20,19 @@ namespace LeecoMQTest
 
             Console.WriteLine("Enter path or leave blank for default:");
             Console.WriteLine("<Default> " + path);
+            Console.WriteLine(path);
             var str = Console.ReadLine();
             if (!string.IsNullOrEmpty(str))
                 path = str;
             MessageQueueActor mqa = new MessageQueueActor();
             List<string> results = mqa.ReadQueue(path);
             foreach (string s in results)
+            {
+                Console.WriteLine(s);
+            }
+
+            List<string> privateQueues = mqa.GetPrivateQueues(path);
+            foreach (string s in privateQueues)
             {
                 Console.WriteLine(s);
             }
@@ -79,6 +86,23 @@ namespace LeecoMQTest
 
             return lstMessages;
 
+        }
+
+        public List<string> GetPrivateQueues(string path)
+        {
+            // Get a list of queues with the specified category.
+            MessageQueue[] QueueList =
+                MessageQueue.GetPrivateQueuesByMachine(path);
+
+            var results = new List<string>();
+
+            // Display the paths of the queues in the list.
+            foreach (MessageQueue queueItem in QueueList)
+            {
+                results.Add(queueItem.Path);
+            }
+
+            return results;
         }
     }
 }
