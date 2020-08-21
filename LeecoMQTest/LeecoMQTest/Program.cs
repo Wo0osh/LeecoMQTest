@@ -16,6 +16,7 @@ namespace LeecoMQTest
             string path = @"vleecoreports.leecosteel.com:\GPin";
             //string path = @"vleecoreports.leecosteel.com:1801\GPout";
             //string path = @"vleecoreports.leecosteel.com\GPin";
+            //tim was here
 
             Console.WriteLine("Enter path or leave blank for default:");
             Console.WriteLine("<Default> " + path);
